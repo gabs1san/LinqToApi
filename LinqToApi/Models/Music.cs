@@ -4,7 +4,7 @@ namespace LinqToApi.Models
 {
     internal class Music
     {
-        [("Song")]
+        [JsonPropertyName("Song")]
         public string Nome { get; set; }
 
         [JsonPropertyName("artist")]
